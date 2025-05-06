@@ -10,6 +10,10 @@ body {
     margin: 0;
 }
 
+.hidden {
+    display: none;
+}
+
 .login-container {
     background: #2C3E50;
     padding: 20px;
