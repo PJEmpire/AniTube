@@ -1,0 +1,31 @@
+body { background-color: #1E1E1E; color: white; font-family: Arial, sans-serif; margin: 0; text-align: center; }
+
+header { background: #2C3E50; padding: 20px; font-size: 10px; display: flex; justify-content: center; align-items: center; }
+
+header img {
+            width: 40px;
+            /* Adjust as needed */
+            height: auto;
+            vertical-align: middle;
+        }
+
+#logo { height: 40px; margin: 0 15px; }
+
+.search-container { margin: 20px 0; }
+
+#searchBar { padding: 10px; width: 60%; border: none; border-radius: 5px; }
+
+#searchBtn { padding: 10px; background: linear-gradient(to right, #E74C3C, #3498DB); color: white; border: none; border-radius: 5px; cursor: pointer; }
+
+#anime-list { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; }
+
+.anime-card { background: #2C3E50; border-radius: 25px; padding: 10px; width: 400px; height: 100px; text-align: center; text-decoration: none; color: white; box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); }
+
+.anime-card img { width: 100%; border-radius: 10px; }
+
+.anime-card h2 { margin-top: 10px; font-size: 18px; }
+
+.anime-card:hover { opacity: 0.8; }
+
+footer { background: #2C3E50; padding: 10px; margin-top: 20px; }
+
